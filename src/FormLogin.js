@@ -167,7 +167,7 @@ class FormLogin extends Component {
                                 </div>
                                 <div className='text-center'>
                                     <button 
-                                        className='btn btn-primary mt-4' 
+                                        className='btn btn-success mt-4' 
                                         type='submit'
                                         disabled={!this.state.formValid}
                                     >submit</button>
