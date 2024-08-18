@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import './FormLogin.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class FormLogin extends Component {
@@ -120,8 +122,9 @@ class FormLogin extends Component {
         return (
             <div className='d-flex justify-content-center mt-5'>
                 <div className='col-sm-6'>
-                    <div className='card'>
+                    <div className='card box'>
                         <div className='card-body p-4'>
+                            <h2 className='text-center'>Login Form</h2>
                             <form onSubmit={this.onFormSubmit}>
                                 <div className='form-group'>
                                     <label htmlFor='username'>User Name</label>
