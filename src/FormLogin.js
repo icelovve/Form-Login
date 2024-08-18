@@ -124,7 +124,7 @@ class FormLogin extends Component {
                 <div className='col-sm-6'>
                     <div className='card box'>
                         <div className='card-body p-4'>
-                            <h2 className='text-center'>Login Form</h2>
+                            <h2 className='text-center'>Login</h2>
                             <form onSubmit={this.onFormSubmit}>
                                 <div className='form-group'>
                                     <label htmlFor='username'>User Name</label>

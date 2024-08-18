@@ -6,3 +6,10 @@
     margin: 100px 0 0 0;
     box-shadow: 16px 18px 2px 1px rgba(29, 29, 30, 0.2);
 }
+
+h2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+}
